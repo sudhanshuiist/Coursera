@@ -1,0 +1,120 @@
+body{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main-container{
+    width:100%;
+}
+.box-1{
+    width:30%;
+    background-color: whitesmoke;
+    color: black;
+    position: relative;
+    border: 2px solid black;
+    float: left;
+    margin-left: 2%;
+}
+.box1-title{
+    width:90px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.box-1 p{
+    padding: 20px;
+}
+.box-2{
+    width:30%;
+    background-color: whitesmoke;
+    color: black;
+    position: relative;
+    border: 2px solid black;
+    float: left;
+    margin-left: 2%;
+}
+.box2-title{
+    width:90px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.box-2 p{
+    padding: 20px;
+}
+
+.box-3{
+    width:30%;    
+    background-color: whitesmoke;
+    color: black;
+    position: relative;
+    border: 2px solid black;
+    float: left;
+    margin-left: 2%;
+}
+.box3-title{
+    width:90px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.box-3 p{
+    padding: 20px;
+}
+@media only screen and (max-width: 991px) {
+    .main-container{
+        width:96%;
+        margin-left: 2%;
+    }
+    .box-1{
+        width:calc(49% - 4px);
+        margin-left: 0%;
+    }
+    .box-2{
+        width: calc(49% - 4px);
+    }
+    .box-3{
+        width: calc(100% - 4px);
+        margin-left: 0%;
+        margin-top:20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .main-container{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .box-1{
+        width: calc(100% - 4px);
+        float: none;
+        margin-top:20px;
+    }
+    .box-2{
+        width: calc(100% - 4px);
+        float: none;
+        margin-left: 0%;
+        margin-top:20px;
+    }
+}
